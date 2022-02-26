@@ -14,6 +14,7 @@ const Theme = () => {
   return (
     <div
       className="theme"
+      data-testid="theme"
       data-theme={theme === "light" ? "dark" : "light"}
       onClick={onToggleTheme}
     >

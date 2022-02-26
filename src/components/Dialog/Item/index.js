@@ -15,6 +15,7 @@ const Item = ({ isReverse, isRemovable, messages, avatar, onRemove }) => {
 
   return (
     <div
+      data-testid="message-item"
       className={classNames("item", {
         reverse: isReverse,
         removable: isRemovable,
@@ -23,7 +24,7 @@ const Item = ({ isReverse, isRemovable, messages, avatar, onRemove }) => {
       <img src={avatar} className="avatar" alt="Avatar" />
       <div className="list">
         {messages.map((item) => (
-          <div className="list-item" key={item.id}>
+          <div className="list-item" data-testid="message-list-item" key={item.id}>
             <div className="text">{item.text}</div>
             <div className="time">{dayjs(item.date).format("HH:mm")}</div>
             <Icon
@@ -37,6 +38,7 @@ const Item = ({ isReverse, isRemovable, messages, avatar, onRemove }) => {
               data-id={item.id}
               size={18}
               className="remove-message"
+              data-testid="remove-message"
               onClick={onRemoveHandle}
             />
           </div>

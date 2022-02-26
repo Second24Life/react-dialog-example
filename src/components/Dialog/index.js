@@ -50,7 +50,7 @@ const Dialog = ({ newMessage }) => {
 
   return (
     <div className="dialog">
-      <div className="overflow" ref={dialogRef}>
+      <div className="overflow" data-testid="dialog" ref={dialogRef}>
         {normalizedDialog.map((item) =>
           item.type === "message" ? (
             <Item {...item} key={item.id} onRemove={onRemove} />
