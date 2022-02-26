@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-dialog-example/static/css/main.d28ab193.chunk.css",
-    "main.js": "/react-dialog-example/static/js/main.e381e0e2.chunk.js",
-    "main.js.map": "/react-dialog-example/static/js/main.e381e0e2.chunk.js.map",
+    "main.js": "/react-dialog-example/static/js/main.d5efac53.chunk.js",
+    "main.js.map": "/react-dialog-example/static/js/main.d5efac53.chunk.js.map",
     "runtime-main.js": "/react-dialog-example/static/js/runtime-main.574abb82.js",
     "runtime-main.js.map": "/react-dialog-example/static/js/runtime-main.574abb82.js.map",
     "static/js/2.3afdd8a6.chunk.js": "/react-dialog-example/static/js/2.3afdd8a6.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.574abb82.js",
     "static/js/2.3afdd8a6.chunk.js",
     "static/css/main.d28ab193.chunk.css",
-    "static/js/main.e381e0e2.chunk.js"
+    "static/js/main.d5efac53.chunk.js"
   ]
 }
